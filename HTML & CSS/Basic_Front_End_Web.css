@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    background-color: #f4f4f4;
+    cursor: default;
+    min-width: 435px;
+}
+.topbar {
+    background-color: #1F365C;
+    width: 100%;
+padding: 5px 0;
+overflow: hidden;
+display: flex;
+}
+.left {
+    font-size: medium;
+    color: white;
+    float: left;
+    justify-content: left;
+}
+.right {
+    font-size: medium;
+    color: white;
+    float: right;
+    justify-content: right;
+}
+.headerlogo {
+    overflow: hidden;
+width: 100%;
+background-color: white;
+border-bottom: 2px solid gold;
+padding: 10px 0;
+display: flex;
+align-items: center;
+}
+.logo {
+    margin-top: 10px;
+ margin-left: 10px;
+ float: left;
+}
+.button {
+    background-color:whitesmoke;
+    padding: 20px; margin-top: 0px;
+    border-bottom: 2px solid gold;
+    margin-left: 0;
+}
+.button li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+.button a {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+}
+.button a:hover {
+    font-weight: bold;
+    text-decoration: underline gold;
+}
+.headerword {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+}
+.index1 {
+    margin-bottom: 5px;
+    line-height: 1px;
+    color: gold;
+}
+.headerword ul li {
+    list-style-type: none;
+}
+.index2 {
+    line-height: 1px;
+    color: black
+}
+.container {
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+.jumbotron {
+    background-image: url(https://njsbdc.com/wp-content/uploads/2018/10/agenda-analysis-business-990818-1.jpg);
+    object-position: center;
+    padding: 200px;
+}
+.card {
+text-align: center;
+padding: 10px;
+font-size: 0.9em;
+margin-top: 40px;
+margin-bottom: 40px;
+cursor: default;
+}
+.x {
+    margin-left: 65px;
+    margin-right: 20px;
+}
+.y {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.z {
+    margin-left: 20px;
+    margin-right: 65px;
+}
+.n {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.maintitle {
+    text-align: center;
+    padding: 30px 30px;
+    background-color:#1F365C;
+}
+.judul {
+    color: white;
+    font-weight: bold;
+    border-bottom: 5px solid gold;
+    padding-bottom: 10px;
+}
+.subjudul {
+    color: white;
+    text-align: justify;
+    padding: 25px 0;
+}
+.buttonss a {
+    color: gold;
+    border: 2px solid gold;
+    margin: 0;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+.buttonss a:hover {
+    background-color: gold;
+    color: white;
+}
+.minicard {
+    display: flex;
+    background-color: white;
+}
+.card:hover {
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+.about {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+.abouttitle {
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.companyprofile {
+    flex-basis: 33.3%;
+    margin: 20px 10px 20px 10px;
+}
+.morecompanyprofile {
+    flex-basis: 33.3%;
+    margin: 20px 10px 20px 10px;
+}
+aside {
+    flex-basis: 33.3%;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+}
+.buttons {
+    text-align: justify;
+    margin: 30px 0;
+}
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: gold;
+    padding: 10px 20px;
+}
+.buttons a:hover {
+    color: gold;
+    background:white;
+    border: 2px solid gold;
+    border-radius: 2px;
+}
+.companyprofile h2 {
+    margin: 25px 0;
+}
+.morecompanyprofile h2 {
+    margin: 10px 0 20px 0;
+    border-bottom: 2px solid gold;
+}
+footer {
+    background-color: #1F365C;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+.judulkenapaharuskami {
+    text-align: center;
+    border-bottom: 2px solid gold;
+    background-color: white;
+    padding: 20px 0;
+    width: 50%;
+    margin: auto;
+}
+.latar {
+    background-color: white;
+}
+.garis {
+    border-bottom: 2px solid gold;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+@media screen and (max-width: 700px) {
+    header {
+       width: 100%;
+       font-size: 0.8em;
+    }
+    article {
+        font-size: 0.9em;
+    }
+    .minicard {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .x {
+        margin: 40px 25px;
+    }
+    .y {
+        margin: 40px 25px;
+    }
+    .z {
+        margin: 40px 25px; }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        font-size: 1em;
+    }
+    aside h1 {
+        margin: 15px 0;
+    }
+    .jumbotron {
+        padding: 150px;
+    }
+}
+ @media screen and (max-width: 580px) {
+    header {
+         width: 100%;
+         font-size: 0.8em;
+     }
+     .companyprofile img {
+         width: 300px;
+         text-align: center;
+     }
+     .abouttitle {
+         font-size: 0.5em;
+         text-align: center;
+     }
+     .garis {
+         border-bottom: 0.2px solid gold;
+         margin: auto;
+         width: 30%;
+     }
+     .minicard {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .x {
+         margin: 20px 15px;
+     }
+     .y {
+         margin: 20px 15px;
+     }
+     .z {
+         margin: 20px 15px;
+     }
+     .judulkenapaharuskami {
+         font-size: 0.8em;
+         margin: auto;
+     }
+     .left {
+         font-size: 0.5em;
+     }
+     .right {
+         font-size: 0.5em;
+     }
+     .logo img {
+         width: 50px;
+     }
+     .headerlogo {
+         padding: 5px;
+     }
+     .logo {
+         margin: 15px 0;
+     }
+     .button ul li a {
+         font-size: 0.8em;
+     }
+     .jumbotron {
+         padding: 100px;
+     }
+     .judul {
+         font-size: 1em;
+     }
+     .subjudul {
+         font-size: 1em;
+     }
+     .buttonss {
+         font-size: 1em;
+     }
+     .abouttitle {
+         font-size: 1em;
+     }
+     .about {
+         display: flex;
+         flex-direction: column;
+     }
+     .maintitle {
+         font-size: 0.8em;
+     }
+     .morecompanyprofile {
+         margin: 20px 0;
+     }
+     aside h1 { margin: 10px 0;
+
+     }
+    }
+    @media screen and (max-width: 455px) {
+        .jumbotron {
+            padding: 50px;
+        }
+        .button a:hover {
+            text-decoration: underline gold;
+            font-weight: normal;
+        }
+    }
+    @media screen and (max-width: 880px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .minicard {
+        display: flex;
+        flex-direction: column;
+    }
+    .x {
+        margin: 20px 15px;
+    }
+    .y {
+        margin: 20px 15px;
+    }
+    .z {
+        margin: 20px 15px;
+    }
